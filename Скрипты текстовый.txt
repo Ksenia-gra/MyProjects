@@ -1,0 +1,27 @@
+//Сотрудника с максимальной заработной платой.
+
+SELECT *
+FROM employee
+WHERE salary=(SELECT MAX(salary) FROM employee)
+
+//Отдел, с самой высокой заработной платой между сотрудниками. 
+
+SELECT d.*
+FROM employee e INNER JOIN department d ON e.department_id=d.id
+WHERE salary=(SELECT MAX(salary) FROM employee)
+
+//Отдел, с максимальной суммарной зарплатой сотрудников. 
+
+WITH depTOP AS 
+	(SELECT department_id, SUM(salary) AS sum_salary
+	FROM employee 
+	GROUP BY department_id)
+SELECT depTOP.*
+FROM depTOP
+WHERE depTOP.sum_salary = (SELECT MAX(sum_salary) FROM depTOP);
+
+//Сотрудника, чье имя начинается на «Р» и заканчивается на «н».
+
+SELECT *
+FROM employee
+WHERE LEFT(name,1)='Р' AND RIGHT(name,1)='н'
