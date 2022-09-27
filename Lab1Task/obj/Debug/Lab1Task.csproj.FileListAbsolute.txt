@@ -1,0 +1,48 @@
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\bin\Debug\Lab1Task.exe.config
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\bin\Debug\Lab1Task.exe
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\bin\Debug\Lab1Task.pdb
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.AssemblyReference.cache
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.SuggestedBindingRedirects.cache
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\MainWindow.g.cs
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\App.g.cs
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task_MarkupCompile.cache
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task_MarkupCompile.lref
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\MainWindow.baml
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task.g.resources
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task.Properties.Resources.resources
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.GenerateResource.cache
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.CoreCompileInputs.cache
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task.exe
+C:\Users\kseniagrafova\source\repos\Lab1Task\Lab1Task\obj\Debug\Lab1Task.pdb
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\bin\Debug\Lab1Task.exe.config
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\bin\Debug\Lab1Task.exe
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\bin\Debug\Lab1Task.pdb
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task_MarkupCompile.cache
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task_MarkupCompile.lref
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task.g.resources
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task.Properties.Resources.resources
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task.exe
+\\Mac\Home\Desktop\Lab1Task\Lab1Task\obj\Debug\Lab1Task.pdb
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\bin\Debug\Lab1Task.exe.config
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\bin\Debug\Lab1Task.exe
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\bin\Debug\Lab1Task.pdb
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task_MarkupCompile.cache
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task_MarkupCompile.lref
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task.g.resources
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task.Properties.Resources.resources
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task.exe
+\\Mac\Home\Desktop\3 курс\Лабораторные работы\С#\Lab1Task\Lab1Task\obj\Debug\Lab1Task.pdb
