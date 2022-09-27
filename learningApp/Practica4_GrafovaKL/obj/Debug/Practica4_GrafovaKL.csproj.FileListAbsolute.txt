@@ -1,0 +1,228 @@
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\SignInPage.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL_MarkupCompile.cache
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL_MarkupCompile.lref
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Practica4_GrafovaKL.exe.config
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Practica4_GrafovaKL.exe
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Practica4_GrafovaKL.pdb
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\App.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\SignInPage.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.g.resources
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.Properties.Resources.resources
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.exe
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.pdb
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Registration.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Registration.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainEducationPage.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainEducationPage.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\SplashScreen.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\SplashScreen.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainTeoryPage.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainTeoryPage.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\PracticePage.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\PracticePage.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\TestPage.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\TestPage.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\ProfilePage.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\ProfilePage.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\PracticeExersicesPage.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\PracticeExersicesPage.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\TeoryTheme.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\TeoryTheme.baml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\EntityFramework.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.EF6.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.Linq.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.CopyComplete
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Bcl.HashCode.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Data.SqlClient.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Logging.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Options.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Primitives.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Identity.Client.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Buffers.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Collections.Immutable.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.ComponentModel.Annotations.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Memory.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Numerics.Vectors.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Threading.Tasks.Extensions.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Bcl.HashCode.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Logging.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Options.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Primitives.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Identity.Client.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Buffers.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Collections.Immutable.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Memory.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Numerics.Vectors.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Threading.Tasks.Extensions.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\SQLite.CodeFirst.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\SQLite.CodeFirst.Migrations.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.EF6.Migrations.dll
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL_Content.g.cs
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.Migrations.init.resources
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.Migrations.SetFieldsUsers.resources
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\EntityFramework.xml
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Data.SqlClient.pdb
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.Migrations.allTables.resources
+\\Mac\Home\Desktop\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Practica4_GrafovaKL.exe.config
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Practica4_GrafovaKL.exe
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Practica4_GrafovaKL.pdb
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\EntityFramework.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\EntityFramework.SqlServer.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Bcl.HashCode.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Data.SqlClient.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Logging.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Options.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Primitives.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Identity.Client.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\SQLite.CodeFirst.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\SQLite.CodeFirst.Migrations.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Buffers.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Collections.Immutable.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.ComponentModel.Annotations.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.EF6.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.EF6.Migrations.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.Linq.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Memory.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Numerics.Vectors.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Threading.Tasks.Extensions.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\EntityFramework.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\EntityFramework.SqlServer.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Bcl.HashCode.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Data.SqlClient.pdb
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Logging.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Options.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Extensions.Primitives.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.Identity.Client.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Buffers.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Collections.Immutable.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Data.SQLite.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Memory.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Numerics.Vectors.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\System.Threading.Tasks.Extensions.xml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainEducationPage.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainTeoryPage.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\PracticeExersicesPage.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\PracticePage.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\ProfilePage.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Registration.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\SignInPage.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\SplashScreen.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\TeoryTheme.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\TestPage.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL_Content.g.cs
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL_MarkupCompile.cache
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL_MarkupCompile.lref
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\App.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainEducationPage.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainTeoryPage.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\PracticeExersicesPage.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\PracticePage.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\ProfilePage.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Registration.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\SignInPage.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\SplashScreen.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\TeoryTheme.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\TestPage.baml
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.g.resources
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.Migrations.init.resources
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.Migrations.SetFieldsUsers.resources
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.Migrations.allTables.resources
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.Properties.Resources.resources
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.csproj.CopyComplete
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.exe
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\obj\Debug\Practica4_GrafovaKL.pdb
+\\Mac\Home\Desktop\2 курс все работы\Practica4_GrafovaKL\Practica4_GrafovaKL\bin\Debug\Microsoft.EntityFrameworkCore.xml

@@ -1,0 +1,339 @@
+﻿<Window x:Class="Practica4_GrafovaKL.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica4_GrafovaKL"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        
+     
+        Title="Обучающее приложение на тему Право" Height="460" Width="650">
+
+    <Window.Resources>
+        <Image x:Key="Show" Source="icons\passShoIcon.png" RenderTransformOrigin="0.593,-0.399">
+
+        </Image>
+        <Image x:Key="Hide" Source="icons\passHideIcon.png">
+
+        </Image>
+        <Image x:Key="Cancel" Source="icons\cross-icon.png">
+
+        </Image>
+    </Window.Resources>
+    <Grid Background="#5A5A5A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Button Width="30" Height="30" HorizontalAlignment="Right"  VerticalAlignment="Center"
+                    Background="Transparent" BorderBrush="Transparent"
+                    Style="{StaticResource MyButtonStyle}" Click="Cancel_Click"
+                    >
+                <DynamicResource ResourceKey="Cancel"/>
+            </Button>
+        </StackPanel>
+        <StackPanel Margin="0,34,0,0" Grid.RowSpan="2">
+            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="32"
+                    FontFamily="Inter" FontWeight="Bold" HorizontalAlignment="Center" >
+        Регистрация
+                <TextBlock.Effect>
+                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5">
+
+                    </DropShadowEffect>
+                </TextBlock.Effect>
+            </TextBlock>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,50,0,0" Grid.RowSpan="2">
+            <Grid Width="651" >
+                <TextBox Name="Login" Background="#FFB546"  Height="40" Width="350" 
+                 BorderBrush="#FFB546" Foreground="#633F09" FontWeight="Bold"
+                 TextChanged="Login_TextChanged"  FontSize="18"
+                 Padding="10,5,10,5"  MaxLength="27" 
+                 Margin="150,0,150,0" 
+                 MaxLines="1" PreviewTextInput="Login_PreviewTextInput" LostFocus="Login_LostFocus" HorizontalAlignment="Center" 
+                 
+                 >
+                    <TextBox.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="15"/>
+                        </Style>
+                    </TextBox.Resources>
+                    <TextBox.ToolTip>
+                        <ToolTip Background="Transparent" BorderBrush="Transparent"
+                             Height="60" >
+
+                            <StackPanel Background="Black">
+                                <TextBlock FontSize="14" FontWeight="Bold" Foreground="White" >
+                                    Придумайте имя пользователя
+                                </TextBlock>
+                            </StackPanel>
+
+                        </ToolTip>
+                    </TextBox.ToolTip>
+                    <TextBox.Effect>
+                        <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.5" >
+
+                        </DropShadowEffect>
+                    </TextBox.Effect>
+                </TextBox>
+                <TextBlock Name="HintLogin" VerticalAlignment="Top" Text="Логин"  FontSize="18"
+                   FontFamily="Inter" FontWeight="Bold" Foreground="#633F09"
+                   Margin="170,20">
+
+                </TextBlock>
+            </Grid>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Margin="0,1,0,0">
+            <Grid Height="61">
+
+                <TextBox  Name="TextShowPassword" BorderBrush="#FFB546" Background="#FFB546"
+                          Height="40" Width="350"
+                  Foreground="#633F09" FontWeight="Bold" MaxLength="27"  Visibility="Hidden"
+                 FontSize="18" Padding="10,5,10,5" TextChanged="TextShowPassword_TextChanged"
+                           Margin="150,0,150,0" 
+                  LostFocus="TextShowPassword_LostFocus"
+                     >
+                    <TextBox.Effect>
+                        <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.5" >
+
+                        </DropShadowEffect>
+                    </TextBox.Effect>
+                    
+                    <TextBox.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="15"/>
+                        </Style>
+                    </TextBox.Resources>
+
+
+                </TextBox>
+                <PasswordBox  Name="Password"  Height="40" Width="350" 
+                  Foreground="#633F09" FontWeight="Bold" MaxLength="27" 
+                  FontSize="18" Padding="10,5,10,5" LostFocus="Password_LostFocus" 
+                  PasswordChanged="Password_PasswordChanged" 
+                  PreviewTextInput="Password_PreviewTextInput" Margin="150,0,150,0" 
+                  
+                  >
+                    <PasswordBox.ToolTip>
+                        <ToolTip Background="Transparent" BorderBrush="Transparent"
+                             Height="60" >
+
+                            <StackPanel Background="Black">
+                                <TextBlock FontSize="14" FontWeight="Bold" Foreground="White" >
+                                    Придумайте пароль(не менее 6 символов)
+                                </TextBlock>
+                            </StackPanel>
+
+                        </ToolTip>
+                    </PasswordBox.ToolTip>
+                    <PasswordBox.Template >
+
+                        <ControlTemplate TargetType="PasswordBox">
+                            <Border CornerRadius="15" BorderBrush="#FFB546" BorderThickness="1"  Background="#FFB546"
+                            >
+
+                                <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                            </Border>
+
+                        </ControlTemplate>
+                    </PasswordBox.Template>
+
+                    <PasswordBox.Effect>
+                        <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.5" >
+
+                        </DropShadowEffect>
+                    </PasswordBox.Effect>
+                </PasswordBox>
+                <TextBlock Name="HintPassword" VerticalAlignment="Center" Text="Пароль"  FontSize="18"
+                   FontFamily="Inter" FontWeight="Bold" Foreground="#633F09"
+                   Margin="170,0,195,0"/>
+                <Button  Width="30" Height="30" Name="PassowordShowOrHide" 
+                          BorderBrush="Transparent" 
+                         HorizontalAlignment="Left" 
+                          VerticalAlignment="Top" Background="Transparent" 
+                          Click="ButtonPass_Click"
+                          Style="{StaticResource MyButtonStyle}"
+                          Margin="460,15,0,20">
+
+                    <DynamicResource ResourceKey="Show"/>
+
+                </Button>
+            </Grid>
+
+        </StackPanel>
+        <StackPanel Grid.Row="4" Margin="0,1,0,67" Grid.RowSpan="2">
+            <Grid>
+                <TextBox x:Name="email" Background="#FFB546"  Height="40" Width="350" 
+                 BorderBrush="#FFB546" Foreground="#633F09" FontWeight="Bold"
+                 TextChanged="Email_TextChanged"  FontSize="18"
+                 Padding="10,5,10,5"  MaxLength="27" 
+                 MaxLines="1" PreviewTextInput="Email_PreviewTextInput"
+                 LostFocus="Email_LostFocus"
+                   Margin="150,5,150,0" >
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="15"/>
+                        </Style>
+                    </TextBox.Resources>
+
+
+                    <TextBox.Effect>
+                        <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.5" />
+                    </TextBox.Effect>
+                </TextBox>
+                <TextBlock x:Name="HintEmail" VerticalAlignment="Top" Text="Email" 
+                       FontSize="18"
+                   FontFamily="Inter" FontWeight="Bold" Foreground="#633F09"
+                   Margin="170,15,170,0"/>
+            </Grid>
+
+
+        </StackPanel>
+        <DockPanel Grid.Row="5" Margin="0,0,0,67" Grid.RowSpan="2">
+            <Viewbox Height="30" >
+                <RadioButton Name="Female" Background="#FFB546" 
+                             Checked="RadioButton1_Checked"
+                             Margin="85,0,0,0"/>
+            </Viewbox>
+            <TextBlock Text="Женский" VerticalAlignment="Center"
+                       Foreground="#D4D4D4" FontSize="20" FontWeight="Bold">
+                <TextBlock.Effect>
+                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270">
+
+                    </DropShadowEffect>
+                </TextBlock.Effect>
+            </TextBlock>
+            <Viewbox Height="30" >
+                <RadioButton Name="Male" Background="#FFB546" Checked="Male_Checked"
+                             Margin="5,0,0,0"></RadioButton>
+            </Viewbox>
+
+            <TextBlock Text="Мужской" Canvas.Left="367" Canvas.Top="272" 
+                       Foreground="#D4D4D4" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBlock.Effect>
+                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270">
+
+                    </DropShadowEffect>
+                </TextBlock.Effect>
+            </TextBlock>
+        </DockPanel>
+        <StackPanel Grid.Row="6" Margin="0,0,0,40" Grid.RowSpan="2">
+            <Button Name="RegistrationButton" Height="54" Width="260" Content="Зарегистрироваться"  Style="{StaticResource SignInButtonStyle}" 
+                 Foreground="#D4D4D4" FontSize="22" FontWeight="Bold" 
+                 Click="RegistrationButton_Click"
+                HorizontalAlignment="Center"
+                 Background="#060606" BorderBrush="Black" HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                 RenderTransformOrigin="0.5,0.5"  VerticalAlignment="Top">
+                <Button.RenderTransform>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="MouseEnter"  >
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="0.85" Duration="0:0:.3">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="0.85" Duration="0:0:.3" >
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+
+
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleX" Duration="0:0:.3" />
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleY"  Duration="0:0:.3" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+
+                </Button.Triggers>
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270">
+
+                    </DropShadowEffect>
+                </Button.Effect>
+
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="7">
+            <Button Name="BackToSignIn"  Width="150" Content="Назад"  Style="{StaticResource SignInButtonStyle}" 
+                 Foreground="#D4D4D4" FontSize="20" FontWeight="Bold" Click="BackToSignIn_Click"
+                 
+                VerticalAlignment="Center"
+                     
+                 Background="Transparent" BorderBrush="Transparent" HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                  HorizontalAlignment="Center"
+                 RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="MouseEnter"  >
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="0.85" Duration="0:0:.3">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="0.85" Duration="0:0:.3" >
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+
+
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleX" Duration="0:0:.3" />
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleY"  Duration="0:0:.3" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+
+                </Button.Triggers>
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270">
+
+                    </DropShadowEffect>
+                </Button.Effect>
+
+            </Button>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

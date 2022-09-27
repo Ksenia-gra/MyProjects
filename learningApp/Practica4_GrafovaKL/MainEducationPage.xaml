@@ -1,0 +1,534 @@
+﻿<Page x:Class="Practica4_GrafovaKL.MainEducationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Practica4_GrafovaKL"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="750"
+      
+      Title="MainEducationPage">
+
+
+
+    <ScrollViewer  ScrollChanged="ScrollViewer_ScrollChanged"
+                 >
+
+
+
+        <Grid Background="#5A5A5A" >
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="1" Grid.ColumnSpan="2" >
+
+
+                    <Border x:Name="CardStat"
+                            CornerRadius="20" Background="#FFB546" 
+                            BorderBrush="#FFB546" BorderThickness="7" 
+                            HorizontalAlignment="Center"
+                            Margin="0,40,0,0">
+
+                        <Border.Effect>
+                            <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.8" />
+                        </Border.Effect>
+
+
+                        <Grid Background="#FFB546"
+                              Width="225" Margin="15">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock Grid.Row="0"
+                                       HorizontalAlignment="Center"                                     
+                                       Text="Мой прогресс"
+                                       FontSize="20" 
+                                       FontWeight="Bold"/>
+                            <StackPanel Grid.Row="1" Margin="5"
+                                        Orientation="Horizontal" Grid.ColumnSpan="2">
+                                <Image Source="\icons\teoryIcon.png"
+                                       Width="41" Height="36"
+                                       Margin="0,0,10,0"/>
+                                <TextBlock Text="Теория"
+                                           VerticalAlignment="Center"
+                                           FontSize="20" 
+                                           FontWeight="Bold"
+                                           />
+
+                            </StackPanel>
+
+                            <Grid Grid.Row="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border x:Name="MaskBorder" CornerRadius="10" 
+                            Background="#FFB546" Height="20" Grid.ColumnSpan="2" Margin="0,3,0,4"/>
+
+                                <ProgressBar Name="TeoryProgress" Minimum="0" Maximum="5"
+                                             Value="0" Background="#D4D4D4"
+                                             BorderBrush="#D4D4D4" Grid.ColumnSpan="2"
+                                             >
+                                    <ProgressBar.Effect>
+                                        <DropShadowEffect Direction="270" BlurRadius="10" Opacity="0.3"/>
+                                    </ProgressBar.Effect>
+                                    <ProgressBar.OpacityMask>
+                                        <VisualBrush Visual="{Binding ElementName=MaskBorder}"/>
+                                    </ProgressBar.OpacityMask>
+                                </ProgressBar>
+                                <TextBlock Text="0/5" 
+                                           FontSize="20" 
+                                           FontWeight="Bold"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Left" Grid.Column="1" Margin="22,0,0,0"/>
+                            </Grid>
+
+                            <StackPanel Grid.Row="3"
+                                        Orientation="Horizontal">
+                                <Image Source="\icons\pixlr-bg-result.png"
+                                       Width="43" Height="42"
+                                       Margin="0,0,10,0"/>
+                                <TextBlock Text="Практика"
+                                           FontSize="20" 
+                                           FontWeight="Bold"
+                                           VerticalAlignment="Center"/>
+
+                            </StackPanel>
+
+                            <Grid Grid.Row="4">
+                                <ProgressBar Name="PracticeProgress"
+                                             Minimum="0" 
+                                             Maximum="4"
+                                             Value="0" Background="#D4D4D4" 
+                                            
+                                             VerticalAlignment="Stretch"
+                                             HorizontalAlignment="Stretch"
+                                         BorderBrush="#D4D4D4">
+                                    <ProgressBar.Effect>
+                                        <DropShadowEffect Direction="270" BlurRadius="10" Opacity="0.3"/>
+                                    </ProgressBar.Effect>
+                                    <ProgressBar.OpacityMask>
+                                        <VisualBrush Visual="{Binding ElementName=MaskBorder}"/>
+                                    </ProgressBar.OpacityMask>
+                                </ProgressBar>
+                                <TextBlock Height="30" Text="0/4"  
+                                           FontSize="20" FontWeight="Bold"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center"/>
+                            </Grid>
+
+                            <StackPanel Grid.Row="5" 
+                                        Orientation="Horizontal" Grid.ColumnSpan="2">
+                                <Image Source="\icons\test.png"
+                                       Width="40" Height="40"
+                                       Margin="0,0,10,0"/>
+                                <TextBlock Text="Тест"  
+                                           FontSize="20"
+                                           FontWeight="Bold"
+                                           VerticalAlignment="Center"/>
+
+                            </StackPanel>
+
+
+                            <Grid Grid.Row="6">
+                                <ProgressBar Name="TestProgress" Minimum="0" Maximum="15"
+                                             Value="0" Background="#D4D4D4"
+                                             VerticalAlignment="Bottom"
+                                             BorderBrush="#D4D4D4" Height="30">
+                                    <ProgressBar.Effect>
+                                        <DropShadowEffect Direction="270" BlurRadius="10" Opacity="0.3" >
+
+                                        </DropShadowEffect>
+                                    </ProgressBar.Effect>
+                                    <ProgressBar.OpacityMask>
+                                        <VisualBrush Visual="{Binding ElementName=MaskBorder}"/>
+                                    </ProgressBar.OpacityMask>
+                                </ProgressBar>
+
+
+                                <TextBlock Height="30" Text="0/15"  
+                                           Name="TextTestProgress"
+                                           FontSize="20" FontWeight="Bold"
+                                           HorizontalAlignment="Center"/>
+                            </Grid>
+
+                        </Grid>
+                    </Border>
+                    <Button Style="{StaticResource SignInButtonStyle}" Margin="0,20,0,0"
+                            Foreground="#35A540" FontSize="32" FontWeight="Bold" 
+                            Content="Начать тест"
+                            Background="Black" BorderBrush="#35A540" 
+                            HorizontalAlignment="Center" 
+                            Height="70" Width="250"
+                            RenderTransformOrigin="0.5,0.5"
+                            Name="BeginTest"
+                            Click="BeginTest_Click">
+                        <Button.RenderTransform>
+                            <ScaleTransform ScaleX="1" ScaleY="1"/>
+                        </Button.RenderTransform>
+                        <Button.Triggers>
+                            <EventTrigger RoutedEvent="MouseEnter"  >
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="0.85" Duration="0:0:.3">
+                                            <DoubleAnimation.EasingFunction>
+                                                <QuarticEase />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                        <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="0.85" Duration="0:0:.3" >
+                                            <DoubleAnimation.EasingFunction>
+                                                <QuarticEase />
+                                            </DoubleAnimation.EasingFunction>
+                                        </DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+
+
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="Button.MouseLeave">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleX" Duration="0:0:.3" />
+                                        <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleY"  Duration="0:0:.3" />
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+
+                        </Button.Triggers>
+                        <Button.Effect>
+                            <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270">
+
+                            </DropShadowEffect>
+                        </Button.Effect>
+                    </Button>
+                </StackPanel>
+                <StackPanel  Grid.Column="0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Row="0" Grid.Column="0">
+                            <Button  Height="120" Width="120" Content="1" 
+                             Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                             Background="#060606" BorderBrush="Black" 
+                             HorizontalContentAlignment="Center" 
+                             VerticalContentAlignment="Center" 
+                             RenderTransformOrigin="0.5,0.5" 
+                              
+                             Style="{StaticResource MainEducationPage}"
+                                Name="Teory1"
+                                Click="Teory_Click">
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                            FontFamily="Inter"  FontWeight="Bold" >
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                                Сущность
+                                <LineBreak/>
+                                права
+
+                            </TextBlock>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="0" Grid.Column="1">
+                            <Button  Height="120" Content="2" Width="120"
+                             Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                             Background="#060606" BorderBrush="Black" 
+                             HorizontalContentAlignment="Center" 
+                             VerticalContentAlignment="Center" 
+                             RenderTransformOrigin="0.5,0.5" 
+                             Style="{StaticResource MainEducationPage}"
+>
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                    TextWrapping="Wrap"
+                    FontFamily="Inter" FontWeight="Bold">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                                Практика
+                                <LineBreak/>
+                                Сущность права
+
+                            </TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="0">
+                            <Button  Height="120" Width="120" Content="3" 
+                     Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                     Background="#060606" BorderBrush="Black" 
+                     HorizontalContentAlignment="Center" 
+                     VerticalContentAlignment="Center" 
+                     RenderTransformOrigin="0.5,0.5"
+                         
+                     Style="{StaticResource MainEducationPage}"
+                      Name="Teory2"
+                      Click="Teory_Click">
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                    FontFamily="Inter"  FontWeight="Bold" >
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                             Правовые 
+                             <LineBreak/>
+                            нормы
+
+                            </TextBlock>
+                        </StackPanel>
+                        <StackPanel Grid.Row="1" Grid.Column="1">
+                            <Button  Height="120" Width="120" Content="4" 
+                             Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                             Background="#060606" BorderBrush="Black" 
+                             HorizontalContentAlignment="Center" 
+                             VerticalContentAlignment="Center" 
+                             RenderTransformOrigin="0.5,0.5" 
+                              
+                             Style="{StaticResource MainEducationPage}"
+                                 >
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                            FontFamily="Inter" FontWeight="Bold">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                                Практика
+                                <LineBreak/>
+                                Правовые 
+                                 <LineBreak/>
+                                нормы
+
+                            </TextBlock>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="2" Grid.Column="0">
+                            <Button  Height="120" Width="120" Content="5" 
+                             Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                             Background="#060606" BorderBrush="Black" 
+                             HorizontalContentAlignment="Center" 
+                             VerticalContentAlignment="Center" 
+                             RenderTransformOrigin="0.5,0.5" 
+                               Name="Teory3"
+                                Click="Teory_Click"
+                             Style="{StaticResource MainEducationPage}"
+                                 >
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                            FontFamily="Inter" FontWeight="Bold">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                                Формы
+                                <LineBreak/>
+                                права
+
+
+                            </TextBlock>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="2" Grid.Column="1">
+                            <Button  Height="120" Width="120" Content="6" 
+                             Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                             Background="#060606" BorderBrush="Black" 
+                             HorizontalContentAlignment="Center" 
+                             VerticalContentAlignment="Center" 
+                             RenderTransformOrigin="0.5,0.5" 
+                              
+                             Style="{StaticResource MainEducationPage}"
+                                 >
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                            FontFamily="Inter" FontWeight="Bold">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                               Практика
+                                <LineBreak/>
+                                Формы права
+
+
+                            </TextBlock>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="3" Grid.Column="0">
+                            <Button  Height="120" Width="120" Content="7" 
+                             Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                             Background="#060606" BorderBrush="Black" 
+                             HorizontalContentAlignment="Center" 
+                             VerticalContentAlignment="Center" 
+                             RenderTransformOrigin="0.5,0.5" 
+                               Name="Teory4"
+                                Click="Teory_Click"
+                             Style="{StaticResource MainEducationPage}"
+                                 >
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                            FontFamily="Inter" FontWeight="Bold">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                               Правовые 
+                                <LineBreak/>
+                                акты
+
+
+                            </TextBlock>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="3" Grid.Column="1">
+                            <Button  Height="120" Width="120" Content="8" 
+                             Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                             Background="#060606" BorderBrush="Black" 
+                             HorizontalContentAlignment="Center" 
+                             VerticalContentAlignment="Center" 
+                             RenderTransformOrigin="0.5,0.5" 
+                              
+                             Style="{StaticResource MainEducationPage}"
+                                 >
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                            FontFamily="Inter" FontWeight="Bold">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                                Практика
+                               <LineBreak/>
+                                Правовые 
+                                <LineBreak/>
+                                акты
+
+
+                            </TextBlock>
+
+                        </StackPanel>
+                        <StackPanel Grid.Row="4" Grid.Column="0">
+                            <Button  Height="120" Width="120" Content="9" 
+                             Foreground="#FFB546" FontSize="40" FontWeight="ExtraBold"
+                             Background="#060606" BorderBrush="Black" 
+                             HorizontalContentAlignment="Center" 
+                             VerticalContentAlignment="Center" 
+                             RenderTransformOrigin="0.5,0.5" 
+                              Name="Teory5"
+                                Click="Teory_Click"
+                             Style="{StaticResource MainEducationPage}"
+                                 >
+                                <Button.RenderTransform>
+                                    <ScaleTransform ScaleX=".7" ScaleY=".7"/>
+                                </Button.RenderTransform>
+
+                                <Button.Effect>
+                                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270"/>
+                                </Button.Effect>
+                            </Button>
+                            <TextBlock  Foreground="#D4D4D4" TextAlignment="Center" FontSize="20"
+                            FontFamily="Inter" FontWeight="Bold"
+                             Margin="0,0,0,20">
+                                <TextBlock.Effect>
+                                    <DropShadowEffect Direction="270" BlurRadius="5" Opacity="0.5"/>
+                                </TextBlock.Effect>
+                                Система
+                               <LineBreak/>
+                                права
+
+                            </TextBlock>
+
+                        </StackPanel>
+                    </Grid>
+
+                </StackPanel>
+            </Grid>
+
+
+        </Grid>
+    </ScrollViewer>
+</Page>

@@ -1,0 +1,217 @@
+﻿<Page x:Class="Practica4_GrafovaKL.TestPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Practica4_GrafovaKL"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="750"
+      Title="TestPage">
+    <Grid  Background="#5A5A5A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border CornerRadius="20" Background="#FFB546" 
+                            BorderBrush="#FFB546" BorderThickness="7" 
+                            Name="QuestCard"
+                            Margin="70,30,70,5"
+                Grid.ColumnSpan="3">
+
+            <Border.Effect>
+                <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.8" />
+            </Border.Effect>
+            <Border.RenderTransform>
+                <ScaleTransform ScaleX="1" />
+            </Border.RenderTransform >
+            <StackPanel Background="#FFB546"
+                   
+                    Name="questPanel">
+
+                <TextBlock Name="Quest" 
+                           TextWrapping="Wrap"
+                           Margin="30,10,20,0"
+                           FontSize="16"
+                           FontFamily="Inter"
+                           FontWeight="ExtraBold"
+                           >
+
+                </TextBlock>
+                <StackPanel Name="Items" Margin="30,0">
+                        
+                       
+
+
+                       
+                    </StackPanel>
+              
+                
+                
+                
+                
+
+            </StackPanel>
+        </Border>
+       
+        
+        <StackPanel Grid.Row="1" Grid.Column="3"
+                    >
+
+            <Button Height="50" Width="130" Name="NextQuest" 
+                    Click="NextQuest_Click"
+                   Margin="0,20,70,0"
+                    HorizontalAlignment="Right"
+                    Style="{StaticResource SignInButtonStyle}"
+                    Background="Black"
+                    Content="→"
+                    Foreground="White"
+                    FontSize="32"
+                    FontWeight="ExtraBold"
+                    HorizontalContentAlignment="Center"
+                   RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="MouseEnter"  >
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="0.85" Duration="0:0:.3">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="0.85" Duration="0:0:.3" >
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+
+
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleX" Duration="0:0:.3" />
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleY"  Duration="0:0:.3" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+
+                </Button.Triggers>
+                
+                    
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270">
+
+                    </DropShadowEffect>
+                </Button.Effect>
+            </Button>
+
+
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0"
+                    >
+
+            
+
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1"
+                    >
+
+            <Button Height="50" Width="250" Name="FinishTest" 
+                    
+                   Click="FinishTest_Click"
+                    HorizontalAlignment="Center"
+                    
+                    Margin="0,20"
+                    Style="{StaticResource SignInButtonStyle}"
+                    Background="Black"
+                    Content="Завершить тест"
+                    Foreground="White"
+                    FontSize="24"
+                    FontWeight="Bold"
+                    FontFamily="Inter"
+                    HorizontalContentAlignment="Center"
+                   RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="MouseEnter"  >
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="0.85" Duration="0:0:.3">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="0.85" Duration="0:0:.3" >
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+
+
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleX" Duration="0:0:.3" />
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleY"  Duration="0:0:.3" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+
+                </Button.Triggers>
+                
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270">
+
+                    </DropShadowEffect>
+                </Button.Effect>
+            </Button>
+
+
+        </StackPanel>
+        <StackPanel Grid.ColumnSpan="3" Grid.Row="3">
+            <Border CornerRadius="5" Background="#FFB546" 
+                            BorderBrush="#FFB546" BorderThickness="7" 
+                            Name="Progress"
+                   
+                            Margin="70,0">
+                <Border.Effect>
+                    <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.8" />
+                </Border.Effect>
+
+                <Grid>
+                    <Border x:Name="MaskBorder" CornerRadius="5" 
+                            Background="#FFB546" Height="20"/>
+                    <ProgressBar Minimum="0" Maximum="15" Name="ProgressB"
+                                             Value="0"   BorderBrush="Black" BorderThickness="0.001" Background="{x:Null}" Foreground="Green">
+                       
+                        <ProgressBar.OpacityMask>
+                            <VisualBrush Visual="{Binding ElementName=MaskBorder}"/>
+                        </ProgressBar.OpacityMask>
+                    </ProgressBar>
+                </Grid>
+            </Border>
+       
+                
+            
+        </StackPanel>
+    </Grid>
+
+</Page>

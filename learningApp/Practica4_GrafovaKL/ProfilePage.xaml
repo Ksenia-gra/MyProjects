@@ -1,0 +1,169 @@
+﻿<Page x:Class="Practica4_GrafovaKL.ProfilePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Practica4_GrafovaKL"
+      mc:Ignorable="d" 
+      d:DesignHeight="550" d:DesignWidth="750"
+      Title="ProfilePage">
+
+    <Grid  Background="#5A5A5A">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2.6*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"
+                    Margin="250,10"
+                    Width="150">
+            <Image Source="\icons\Begemotik5.png"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Border Height="40" Width="350" 
+                    Margin="0,0,0,0" 
+                    CornerRadius="10"
+                    BorderThickness="3"
+                    BorderBrush="#FFB546">
+                <TextBlock Name="Login" Background="#FFB546"  Height="40" Width="350" 
+                  Foreground="#633F09" FontWeight="Bold"
+                   FontSize="18"
+                 Padding="15,5,10,5"  
+                  
+                    >
+
+
+
+                </TextBlock>
+                <Border.Effect>
+                    <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.5" >
+
+                    </DropShadowEffect>
+                </Border.Effect>
+            </Border>
+            <Border Height="40" Width="350" 
+                    Margin="0,20,0,0" 
+                    CornerRadius="10"
+                    BorderThickness="3"
+                    BorderBrush="#FFB546">
+                <TextBlock Name="Email" Background="#FFB546"  Height="40" Width="350" 
+                  Foreground="#633F09" FontWeight="Bold"
+                   FontSize="18"
+                 Padding="15,5,10,5"  
+                  
+                     >
+
+
+
+                </TextBlock>
+                <Border.Effect>
+                    <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.5" >
+
+                    </DropShadowEffect>
+                </Border.Effect>
+            </Border>
+
+
+
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Border Height="70" Width="350" 
+                   
+                    CornerRadius="10"
+                    BorderThickness="3"
+                    BorderBrush="Transparent">
+                <TextBlock Name="TestResultText" Background="Transparent"
+                   
+                 Padding="15,5,10,5"  
+                  
+                     Text="Результаты теста"
+                            Foreground="#D4D4D4"
+                          
+                           FontSize="32"
+                           FontWeight="ExtraBold"
+                           HorizontalAlignment="Center">
+
+
+                    <TextBlock.Effect>
+                        <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.5" >
+
+                        </DropShadowEffect>
+                    </TextBlock.Effect>
+                </TextBlock>
+            </Border>
+            <Border Height="40" Width="190" 
+                    
+                    CornerRadius="10"
+                    BorderThickness="3"
+                    BorderBrush="#FFB546">
+                <TextBlock Name="TestResult" Background="#FFB546"  Height="40" 
+                  Foreground="#633F09" FontWeight="Bold"
+                   FontSize="18"
+                 Padding="15,5,10,5" 
+                  
+                     >
+
+
+                    
+                </TextBlock>
+                <Border.Effect>
+                    <DropShadowEffect Direction="270"  ShadowDepth="10" BlurRadius="10" Opacity="0.5" >
+
+                    </DropShadowEffect>
+                </Border.Effect>
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Row="4">
+            <Button Name="Exit"  Width="150" Content="Выйти"  Style="{StaticResource SignInButtonStyle}" 
+                 Foreground="#D4D4D4" FontSize="30" FontWeight="Bold" Click="Exit_Click"
+                 
+                VerticalAlignment="Center"
+                     
+                 Background="Transparent" BorderBrush="Transparent" HorizontalContentAlignment="Center" 
+                 VerticalContentAlignment="Center" 
+                  HorizontalAlignment="Center"
+                 RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="MouseEnter"  >
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="0.85" Duration="0:0:.3">
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="0.85" Duration="0:0:.3" >
+                                    <DoubleAnimation.EasingFunction>
+                                        <QuarticEase />
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+
+
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="Button.MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleX" Duration="0:0:.3" />
+                                <DoubleAnimation  Storyboard.TargetProperty="RenderTransform.ScaleY"  Duration="0:0:.3" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+
+                </Button.Triggers>
+                <Button.Effect>
+                    <DropShadowEffect ShadowDepth="10" Opacity="0.5" BlurRadius="15"
+                                  Direction="270">
+
+                    </DropShadowEffect>
+                </Button.Effect>
+
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>
