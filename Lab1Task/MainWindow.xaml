@@ -1,0 +1,226 @@
+﻿<Window x:Class="Lab1Task.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab1Task"
+        mc:Ignorable="d"
+        Title="МИКРОПРОВОДНИК" Height="650" Width="850"
+        
+        Closing="Window_Closing">
+    <Grid Background="LightSteelBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+            
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+
+        </Grid.ColumnDefinitions>
+        <StackPanel >
+            <TextBlock TextAlignment="Center" 
+                       FontSize="24"
+                       Margin="0,15,0,0"
+                       FontFamily="Tahoma"
+                       FontWeight="Bold">
+                ДИСК
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <TextBlock TextAlignment="Center" 
+                       FontSize="24"
+                       Margin="0,15,0,0"
+                       FontFamily="Tahoma"
+                       FontWeight="Bold">
+                КАТАЛОГИ
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="2">
+            <TextBlock TextAlignment="Center" 
+                       FontSize="24"
+                       Margin="0,15,0,0"
+                       FontFamily="Tahoma"
+                       FontWeight="Bold">
+                СПИСОК ФАЙЛОВ
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0"
+                    
+    >
+            <ComboBox Margin="20,20,20,10"
+                      Height="30"
+                      Name="comboBox1"
+                      SelectionChanged="comboBox1_SelectionChanged"
+                      Grid.Row="0">
+
+                </ComboBox>
+                
+            
+        </StackPanel>
+        <StackPanel >
+            
+        </StackPanel>
+        <ListBox Name="listBox1"
+                Background="White"
+                FontSize="18"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="20,20,20,50"
+                SelectionChanged="listBox1_SelectionChanged"
+                MouseDoubleClick="listBox1_MouseDoubleClick">
+
+        </ListBox>
+        <Button Name="backButton" 
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="20,240,20,10"
+                Content="Назад"
+                Background="LightYellow"
+                BorderBrush="LightYellow"
+                Click="backButton_Click"
+                FontFamily="Tahoma"
+                FontWeight="Bold"
+                FontSize="16">
+            
+        </Button>
+
+       
+
+
+
+        <ListBox Name="listBox2"
+                     Background="White"
+                     FontSize="18"
+                    Grid.Row="1"
+                     Grid.Column="2"
+                     Margin="20,20,20,50" 
+                    MouseDoubleClick="listBox2_MouseDoubleClick"
+                 >
+                    
+
+                    </ListBox>
+
+        
+        <StackPanel Grid.RowSpan="2" Grid.Row="2"
+                    
+                    Background="SkyBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       FontWeight="Bold"
+                       Margin="0,20,0,0">
+                Информация о диске
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Grid.RowSpan="3"
+                    
+                    Background="SlateBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       FontWeight="Bold"
+                       Margin="0,40,0,0">
+                Информация о каталоге
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2"  Grid.Column="1"
+                    Background="SkyBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       FontWeight="Bold"
+                       Text="Объем диска">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="3"  Grid.Column="1"
+                    Background="SkyBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       FontWeight="Bold"
+                       Text="Свободное пространство">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2"  Grid.Column="2"
+                    Background="SkyBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       
+                       Name="driveVolume">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="3"  Grid.Column="2"
+                    Background="SkyBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       
+                       Name="driveFreeSpace">
+            </TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4"  Grid.Column="1"
+                    Background="SlateBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       Text="Полное название"
+                       FontWeight="Bold">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="4"  Grid.Column="2"
+                    Background="SlateBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                      Name="fullPathName"
+                       >
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="5"  Grid.Column="1"
+                    Background="SlateBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       Text="Корневой каталог"
+                       FontWeight="Bold">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="5"  Grid.Column="2"
+                    Background="SlateBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                      Name="rootDirectory"
+                       >
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="6"  Grid.Column="1"
+                    Background="SlateBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       Text="Время создания"
+                       FontWeight="Bold">
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="6"  Grid.Column="2"
+                    Background="SlateBlue">
+            <TextBlock FontSize="20"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                      Name="createTime"
+                       >
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
