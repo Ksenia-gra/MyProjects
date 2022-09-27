@@ -1,0 +1,4 @@
+\\Mac\Home\Desktop\Forms_Lab\Forms_Lab\x64\Release\Forms_Lab.vcxproj.AssemblyReference.cache
+\\Mac\Home\Desktop\Forms_Lab\Forms_Lab\x64\Release\Forms_Lab.vcxproj.SuggestedBindingRedirects.cache
+\\Mac\Home\Desktop\Forms_Lab\Forms_Lab\x64\Release\FormsLab.MyForm.resources
+\\Mac\Home\Desktop\Forms_Lab\Forms_Lab\x64\Release\Forms_Lab.vcxproj.GenerateResource.cache

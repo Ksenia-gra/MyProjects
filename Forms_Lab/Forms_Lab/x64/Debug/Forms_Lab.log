@@ -1,0 +1,5 @@
+﻿  MyForm.cpp
+\\Mac\Home\Desktop\Forms_Lab\Forms_Lab\MyForm.cpp(7,1): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: ссылка на неразрешенный внешний символ WinMain в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+\\Mac\Home\Desktop\Forms_Lab\x64\Debug\Forms_Lab.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
