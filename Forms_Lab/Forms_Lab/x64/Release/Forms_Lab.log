@@ -1,6 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.BuildSteps.Targets(68,9): warning MSB3491: Не удалось записать строки в файл "x64\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cpp". Отказано в доступе по пути "E:\2 курс все работы\Forms_Lab\Forms_Lab\x64\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cpp".
-  MyForm.cpp
-E:\2 курс все работы\Forms_Lab\Forms_Lab\MyForm.cpp(7,1): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
-  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
-  Создание кода...
-E:\2 курс все работы\Forms_Lab\Forms_Lab\x64\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cpp : fatal  error C1083: Не удается открыть файл созданный компилятором: E:\2 курс все работы\Forms_Lab\Forms_Lab\x64\Release\.NETFramework,Version=v4.8.AssemblyAttributes.obj: Permission denied,
