@@ -25,3 +25,7 @@ WHERE depTOP.sum_salary = (SELECT MAX(sum_salary) FROM depTOP);
 SELECT *
 FROM employee
 WHERE LEFT(name,1)='Р' AND RIGHT(name,1)='н'
+//Второй вариант
+SELECT *
+FROM employee
+WHERE name like "Р%н"
